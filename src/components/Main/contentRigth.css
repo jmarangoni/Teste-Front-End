@@ -1,0 +1,10 @@
+.main-rigth {
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+

@@ -1,0 +1,31 @@
+
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "PTSans-Regular";
+    font-size: 22px;
+  }
+  
+  .container {
+    display: flex;
+    grid-template-rows: 40vh 60vh;
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    
+  }
+  
+  header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  @font-face {
+    font-family: "PTSans-Regular";
+    src: url("../../assets/fonts/PTSans-Regular.ttf");
+  }
+  

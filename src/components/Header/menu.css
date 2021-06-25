@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+}
+
+ul li {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 30px;
+  font-weight: bold;
+}

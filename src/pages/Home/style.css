@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(252, 219, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(252, 219, 0, 1) 0%,
+    rgba(241, 211, 40, 1) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+  font-family: "PTSans-Regular";
+  font-size: 22px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20vh 70vh 10vh;
+  grid-template-areas: "header header";
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+}
+
+header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url("../../assets/fonts/PTSans-Regular.ttf");
+}
