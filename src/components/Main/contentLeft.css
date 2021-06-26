@@ -11,21 +11,33 @@
   font-family: "PTSans-Regular";
 }
 
-h2 {
-  font-size: 20px;
-  font-weight: normal;
-  padding: 20px 0px 20px 15px;
-
+.title h2 {
+  font-size: 31px;
+  font-weight: bold;
+  padding: 20px 0px 20px 0px;
   max-width: 400px;
 }
 
-p {
-  font-size: 16px;
-  font-weight: normal;
-  padding: 0px 0px 20px 15px;
-  max-width: 400px;
+.content-left h5 {
+  font-weight: lighter;
+  font-size: 20px;
+  margin-bottom: 20px;
+  max-width: 350px;
   max-height: 250px;
 }
 
-h1 {
+.content-left p{
+  font-size: 16px;
+  max-width: 400px;
+  
+}
+
+.platforms {
+  display: grid;
+  grid-template: auto/ auto auto auto;
+  justify-content: space-between;
+  font-size: 32px;
+  max-width: 150px;
+  margin-top: 30px;
+
 }

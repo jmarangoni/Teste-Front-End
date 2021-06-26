@@ -4,10 +4,12 @@ import "./style.css";
 export default () => {
   return (
     <>
-      <div className="container">
+      <div className="container box-black">
+        <div className="content">
         <footer>
           <div>MEU RODAPE</div>
         </footer>
+      </div>
       </div>
     </>
   );

@@ -1,31 +1,53 @@
+.header-title {
+  text-align: center;
+  margin: 80px 0;
+}
 
-  
-  body {
-    width: 100vw;
-    height: 100vh;
-    font-family: "PTSans-Regular";
-    font-size: 22px;
-  }
-  
-  .container {
-    display: flex;
-    grid-template-rows: 40vh 60vh;
-    width: 80vw;
-    height: 100vh;
-    margin: auto;
-    
-  }
-  
-  header {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  @font-face {
-    font-family: "PTSans-Regular";
-    src: url("../../assets/fonts/PTSans-Regular.ttf");
-  }
-  
+.header-title p {
+  max-width: 70%;
+  margin: 20px auto;
+  color: #313841;
+}
+
+.feature-content {
+  display: grid;
+  gap:100px 25px;
+  grid-template: auto auto / auto auto auto;
+ 
+}
+
+.feature-item h3 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.feature-item {
+  display: grid;
+  grid-template: auto/auto auto;
+}
+
+.feature-item .icon {
+  margin: 5px 25px 0 0;
+  font-size: 32px;
+}
+
+.feature-item .icon-code {
+  margin: 5px 13px 0 0 !important;
+ 
+}
+
+.feature-item .icon-mail-folder  {
+  margin: 2px 25px 0 0 !important;
+ 
+}
+
+.feature-item .icon-bookmark {
+  margin: 5px 30px 0 0 !important;
+ 
+}
+.feature-item p {
+  font-size: 16px;
+  color: #898989;
+  margin-top: 8px;
+}
+

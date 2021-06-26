@@ -8,27 +8,29 @@ import ContentLeft from "../../components/Main/contentLeft";
 export default () => {
   return (
     <>
-      <div className="container">
-        <header>
-          <div className="logo">
-            <Logo />
+      <div className="container yellow-gradient">
+        <div className="content">
+          <div className="home-content">
+            <header className="home-header">
+              <div className="logo">
+                <Logo />
+              </div>
+              <div className="menu">
+                <Menu />
+              </div>
+            </header>
+
+            <div className="content-left">
+              <ContentLeft />
+            </div>
+
+            <div className="content-rigth">
+              <ContentRight />
+            </div>
+
+        
           </div>
-          <div className="menu">
-            <Menu />
-          </div>
-        </header>
-
-        <div className="content-left">
-          <ContentLeft />
         </div>
-
-        <div className="content-rigth">
-          <ContentRight />
-        </div>
-
-        <footer>
-          <div>MEU RODAPE</div>
-        </footer>
       </div>
     </>
   );
