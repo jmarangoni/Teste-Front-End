@@ -2,7 +2,7 @@ nav {
   display: flex;
 }
 
-ul li {
+nav ul li {
   position: relative;
   display: inline-block;
   font-size: 20px;

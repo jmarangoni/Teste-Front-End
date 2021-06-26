@@ -1,3 +1,81 @@
-.box-black{
-    background-color: #000;
+.box-black {
+  background-color: #000;
+  padding-top: 1px;
+}
+
+.text-yellow {
+  color: #fcdb00;
+}
+
+.header-title.footer {
+    padding: 80px 0 20px 0 !important;
+}
+
+.footer p {
+    color: #898989;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact input {
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.contact button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #fcdb00;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.social-midia {
+  display: grid;
+  grid-template: auto/auto auto auto auto;
+  justify-content: space-between;
+  max-width: 200px;
+  margin: 60px auto 100px ;
+}
+
+.social-midia a {
+  color: #f1d328;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+footer {
+  display: grid;
+  grid-template: auto / 30% auto;
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+  width: 70vw;
+  margin: auto;
+}
+
+.box-menu-footer {
+  display: grid;
+  grid-template: auto / auto auto auto auto;
+}
+
+.box-menu-footer a {
+  font-size: 11px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.box-menu-footer a:hover {
+  text-decoration: underline;
+}
+
+.box-menu-footer ul {
+  list-style: none;
 }
