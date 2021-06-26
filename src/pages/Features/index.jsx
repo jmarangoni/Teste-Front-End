@@ -18,7 +18,7 @@ import {
 export default () => {
   return (
     <>
-      <div className="container">
+      <div className="container" id="features">
         <div className="content">
           <div className="header-title">
             <h2>Tinyone features</h2>

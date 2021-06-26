@@ -32,17 +32,17 @@
 }
 
 .feature-item .icon-code {
-  margin: 5px 13px 0 0 !important;
+  margin: 5px 13px 0 0;
  
 }
 
 .feature-item .icon-mail-folder  {
-  margin: 2px 25px 0 0 !important;
+  margin: 2px 25px 0 0;
  
 }
 
 .feature-item .icon-bookmark {
-  margin: 5px 30px 0 0 !important;
+  margin: 5px 30px 0 0;
  
 }
 .feature-item p {

@@ -6,9 +6,15 @@ export default () => {
     <>
       <nav ClassName="menu">
         <ul>
-          <li>Features</li>
-          <li>Support</li>
-          <li>Blog</li>
+          <li>
+            <a href="#features">Features</a>
+          </li>
+          <li>
+            <a href="#support">Support</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
         </ul>
       </nav>
     </>

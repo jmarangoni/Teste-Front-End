@@ -10,3 +10,15 @@ nav ul li {
   padding: 30px;
   font-weight: bold;
 }
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li a:visited {
+  color: #000;
+}

@@ -11,7 +11,7 @@ import {
 export default () => {
   return (
     <>
-      <div className="container box-black">
+      <div className="container box-black" id="support">
         <div className="content">
           <div className="header-title footer">
             <h2 className="text-yellow">Keep in touch with us</h2>
