@@ -21,15 +21,7 @@ export default () => {
             </header>
 
             <Carousel showArrows={false} showStatus={false} showThumbs={false}>
-              <div className="carousel-item">
-                <div className="content-left">
-                  <ContentLeft />
-                </div>
-
-                <div className="content-rigth">
-                  <ContentRight />
-                </div>
-              </div>
+              
               <div className="carousel-item">
                 <div className="content-left">
                   <ContentLeft />

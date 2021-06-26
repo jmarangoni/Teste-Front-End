@@ -60,7 +60,7 @@
   }
 
   .home-content {
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 40vh 60vh;
   }
 
   .main-left {
@@ -93,6 +93,10 @@
 
   .box-menu-footer {
     grid-template: auto auto auto auto / auto !important;
-    text-align: center  ;
-}
+    text-align: center;
+  }
+
+  .logo {
+    margin-left: -25%;
+  }
 }
